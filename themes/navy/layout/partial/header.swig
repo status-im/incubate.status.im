@@ -38,7 +38,7 @@
                         <i class="mobile-submenu-trigger"></i>
                         <div class="sub-menu">
                             <ul>
-                                <li><a href="https://incubate.status.im">About</a></li>
+                                <li><a href="#">About</a></li>
                                 <li><a href="https://our.status.im/tag/incubate">Blog</a></li>
                                 <li><a href="https://get.status.im/chat/public/status-incubate">Talk To Us</a></li>
                             </ul>
@@ -56,7 +56,21 @@
                         </div>
                     </li>
                     <li><a href="https://our.status.im/tag/hardwallet">Hardwallet</a></li>
-                    <li><a href="https://our.status.im">Community</a></li>
+                    <li class="has-submenu">
+                        <a href="https://people-ops.status.im">Peopleops</a>
+                        <i class="mobile-submenu-trigger"></i>
+                        <div class="sub-menu">
+                            <ul>
+                                <li><a href="https://our.status.im/our-principles/">Our Principles</a></li>
+                                <li><a href="https://status-im.github.io/docs/working_here.html">Working Here</a></li>
+                                <li><a href="https://status-im.github.io/docs/">Docs</a></li>
+                                <li><a href="https://status-im.github.io/docs/life_status.html">Life at Status</a></li>
+                                <li><a href="https://status-im.github.io/docs/">Contribute</a></li>
+                                <li><a href="https://status-im.github.io/docs/">Jobs</a></li>
+                                <li><a href="https://status-im.github.io/tag/people-ops">Blog</a></li>
+                            </ul>
+                        </div>
+                    </li>
                 </ul>
             </nav>
         </header>
