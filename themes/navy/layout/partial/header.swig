@@ -62,11 +62,11 @@
                         <div class="sub-menu">
                             <ul>
                                 <li><a href="https://our.status.im/our-principles/">Our Principles</a></li>
-                                <li><a href="https://status-im.github.io/docs/working_here.html">Working Here</a></li>
-                                <li><a href="https://status-im.github.io/docs/">Docs</a></li>
-                                <li><a href="https://status-im.github.io/docs/life_status.html">Life at Status</a></li>
-                                <li><a href="https://status-im.github.io/docs/">Contribute</a></li>
-                                <li><a href="https://status-im.github.io/docs/">Jobs</a></li>
+                                <li><a href="https://status-im.github.io/people-op.status.im/docs/working_here.html">Working Here</a></li>
+                                <li><a href="https://status-im.github.io/people-op.status.im/docs/">Docs</a></li>
+                                <li><a href="https://status-im.github.io/people-op.status.im/docs/life_status.html">Life at Status</a></li>
+                                <li><a href="https://status-im.github.io/people-op.status.im/docs/">Contribute</a></li>
+                                <li><a href="https://status-im.github.io/people-op.status.im/docs/">Jobs</a></li>
                                 <li><a href="https://status-im.github.io/tag/people-ops">Blog</a></li>
                             </ul>
                         </div>
