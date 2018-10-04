@@ -46,12 +46,12 @@
                             </ul>
                         </div>
                     <li class="has-submenu">
-                        <a href="/" class="main-link">Nimbus</a>
+                        <a href="https://nimbus.status.im" class="main-link">Nimbus</a>
                         <i class="mobile-submenu-trigger"></i>
                         <div class="sub-menu">
                             <ul>
                                 <li><a href="#">About</a></li>
-                                <li><a href="/docs/">Docs</a></li>
+                                <li><a href="https://nimbus.status.im/docs/">Docs</a></li>
                                 <li><a href="https://our.status.im/tag/research">Blog</a></li>
                                 <li><a href="https://gitter.im/status-im/nimbus">Contribute</a></li>
                             </ul>
