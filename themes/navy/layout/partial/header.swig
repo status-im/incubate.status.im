@@ -39,8 +39,10 @@
                         <div class="sub-menu">
                             <ul>
                                 <li><a href="#">About</a></li>
+                                <li><a href="#">Projects</a></li>
+                                <li><a href="#">Projects</a></li>
+                                <li><a href="https://get.status.im/chat/public/status-incubate">Community</a></li>
                                 <li><a href="https://our.status.im/tag/incubate">Blog</a></li>
-                                <li><a href="https://get.status.im/chat/public/status-incubate">Talk To Us</a></li>
                             </ul>
                         </div>
                     <li class="has-submenu">
