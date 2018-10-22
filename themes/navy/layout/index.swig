@@ -1,135 +1,65 @@
 <div class="home-cover">
      {{ partial('partial/header') }}
+    <div class="site-specific-menu">
+        <p>
+            <span class="site-name">incubate</span>
+            <a class="specific-nav-link" href=""><span>About</span></a>
+            <a class="specific-nav-link" href=""><span>Projects</span></a>
+            <a class="specific-nav-link" href=""><span>Submissions</span></a>
+            <a class="specific-nav-link" href=""><span>Community</span></a>
+        </p>
+    </div>
     <div class="intro">
-        <h1>An Incubator Dededicated to Decentralization</h1>
-        <p>We catalyze early-stage startups looking to reinvent the Web. By offering funding, office space, professional services, as well as technical mentorship to our incubatees, our mission is to find the most ambitious projects in the Web3 ecosystem</p>
+        <h1>Incubating Projects that are Building Web3</h1>
+        <p>We’re advancing the Ethereum ecosystem by contributing to the growth of early stage, open source blockchain projects that share our values. Our incubatees are some of the most ambitious projects in the web3 ecosystem, and we’re providing pre-seed funding, mentorship, and infrastructure to help them succeed.</p>
         <div class="intro-buttons">
-            <a class="button button--main" href="#">APPLY FOR STATUS INCUBATE</a>
+            <a class="button button--main" href="/submissions/">APPLY FOR STATUS</a>
         </div>
     </div>
 </div>
 <div class="home-wrap">
-    <div class="section-header section-header--main">
-        <h2 id="top-header">Build a Better Web Together</h2>
-        <p>We catalyze early-stage startups looking to reinvent the Web. By offering funding, office space, professional services, as well as technical mentorship to our incubatees, our mission is to find the most ambitious projects in the Web3 ecosystem
-        </p> 
-        <div class="work-items">
-            <div class="work-item">
-                <div class="work-item-inner">
-                    <h2>Technical Mentorship</h2>
-                    <p>Having spent the last few years building the protocols we'll all need for web3, we can provide unique access to experienced engineers to advise you on best practices nd help improve your code.
-                    </p>
-                    <a href="https://github.com/status-im/nimbus">See docs <img src="../img/arrow_orange.svg" /></a>
-                </div>
-                <img class="work-item-image" src="../img/graphic-research.svg" />
-            </div>
-            <div class="work-item">
-                <img class="work-item-image work-item-image-right" src="../img/graphic-licensing.svg" />
-                <div class="work-item-inner">
-                    <h2>Business Development</h2>
-                    <p>With some of the leading business minds behind Incubate, we can provide you with unique insights and leverage our market position to help seed your web3 business dreams
-                    </p>
-                    <a href="https://github.com/status-im/nimbus">Get In Touch! <img src="../img/arrow_orange.svg" /></a>
-                </div>
-            </div>
-            <div class="work-item">
-                <div class="work-item-inner">
-                    <h2>Communications and Community Support</h2>
-                    <p>We’ve learnt some valuable lessons over the last few years when it comes to building community and producing the right kind of communications when buidling web3 products adn services and can pass all that experience onto your fledgling startup.
-                    </p>
-                    <a href="https://github.com/status-im/nimbus">See docs <img src="../img/arrow_orange.svg" /></a>
-                </div>
-                <img class="work-item-image" src="../img/graphic-network.svg" />
-            </div>
-            <div class="work-item">
-                <img class="work-item-image work-item-image-right" src="../img/graphic-platform-support.svg" />
-                <div class="work-item-inner">
-                    <h2>Legal and Regulatory Support</h2>
-                    <p>Experience, assisstance and all the rest...
-                    </p>
-                    <a href="https://github.com/status-im/nimbus">See docs <img src="../img/arrow_orange.svg" /></a>
-                </div>
-            </div>
+    <div class="wrap">
+        <div class="forward-text">
+            <h2>This Way Forward</h2>
+            <p>We care deeply about open source software and decentralization. Since this technology is so new, mainstream adoption will take time. Our goal is to facilitate this process by incubating projects that share the same organizational values as Status.</p> 
+            <p>We incubate startups on a rolling basis and participating projects span a wide variety of areas- from scaling solutions and base layer protocols to end-user Dapps.</p> 
+        </div>
+        <div class="forward-img">
+            <img src="../img/incubate_beaker.svg" />
         </div>
     </div>
-    <div class="sections">
-        <div class="inner-header">
-            <h2>Contribute</h2>
-            <p>Status Incubate is an open source initiative in which anyone can get involved. There are a number of ways to contribute:</p>
+
+    <div class="wrap">
+        <div class="feature">
+            <img src="../img/funding.svg" />
+            <h3>Funding</h3>
+            <p>We offer standard pre-seed funding in exchange for equity and tokens (where applicable). Funding for later-stage projects is also possible on a case-by-case basis.</p>
         </div>
-        <div class="contribute-wrap">
-            <div class="contribute">
-                <h3>Join the Team</h3>
-                <p>We are always looking for passionate and talented individuals to join our team.
-                <p>
-                    <a href="https://status.im/open-positions.html">See list of open roles</a>
-                    <span><a href="https://status.im/open-positions.html"><img src="../img/arrow_ogn.png" /></a></span>
-            </div>
-            <div class="contribute">
-                <h3>Work on Bounties</h3>
-                <p>As an open source project, anyone anywhere can get involved and contribute code.
-                <p>
-                    <a href="https://gitcoin.co/explorer?keywords=nimbus&order_by=-web3_created">See open bounties</a>
-                    <span><a href="https://gitcoin.co/explorer?keywords=nimbus&order_by=-web3_created"><img src="../img/arrow_ogn.png" /></a></span>
-            </div>
-            <div class="contribute">
-                <h3>Join the Conversation</h3>
-                <p>We are an open community and happy to answer your questions and help you learn more about Nimbus.
-                <p>
-                    <a href="https://get.status.im/chat/public/nimbus">Join us in Status</a>
-                    <span><a href="https://get.status.im/chat/public/nimbus"><img src="../img/arrow_ogn.png" /></a></span>
-            </div>
+        <div class="feature">
+            <img src="../img/mentorship.svg" />
+            <h3>Mentorship</h3>
+            <p>Projects will have access to our volunteer mentor network who can provide coaching on the various aspects of building a Web3 project.</p>
         </div>
-        <div class="inner-header">
-            <h2>Core Contributors</h2>
-            <p>We’re a diverse group of business specialists, smart contract programmers, and product managers with a passion for web3 technologies.</p>
+        <div class="feature">
+            <img src="../img/legal_reg.svg" />
+            <h3>Legal and Regulatory Compliance</h3>
+            <p>Experienced legal and financial advisors will support you as you navigate the legalities, recruit your team, and perfect your organisational structure.</p>
         </div>
-        <div class="contribute-wrap">
-            <div class="contribute">
-                <img class="contributor" src="../img/ellipse.png" />
-                <h3>Ben Morris</h3>
-                <p>Lead</p>
-                <p><a href="https://github.com/">See LinkedIn profile</a>
-                    <span><a href="https://linkedin.com/"><img src="../img/arrow_ogn.png" /></a></span>
-                </p>
-            </div>
-            <div class="contribute">
-                <img class="contributor" src="../img/ellipse.png" />
-                <h3>Ola Kohut</h3>
-                <p>Boss Girl</p>
-                <p><a href="https://github.com/">See LinkedIn profile</a>
-                    <span><a href="https://linkedin.com/"><img src="../img/arrow_ogn.png" /></a></span>
-                </p>
-            </div>
-            <div class="contribute">
-                <img class="contributor" src="../img/ellipse.png" />
-                <h3>Arseniy Klempner</h3>
-                <p>Smart ContractEngineer</p>
-                <p><a href="https://github.com/">See Github profile</a>
-                    <span><a href="https://github.com/"><img src="../img/arrow_ogn.png" /></a></span>
-                </p>
-            </div>
+        <div class="feature">
+            <img src="../img/marketing_comm.svg" />
+            <h3>Marketing and Communication</h3>
+            <p>We have expertise in branding, product positioning, content planning, and community management.</p>
         </div>
-        <div class="inner-header">
-            <h2>Read our Blog</h2>
-            <p>Check out the latest Nimbus news and blog posts:</p>
+        <div class="feature">
+            <img src="../img/technical_support.svg" />
+            <h3>Technical Support</h3>
+            <p>Our technical team has more than 80 members who share their deep expertise with all incubatees. Projects will have access to our 80+ technical team that have deep expertise across the full stack.</p>
         </div>
-        <div class="contribute-wrap">
-            <div class="contribute blog">
-                <h3></h3>
-                <p></p>
-                <a href="#">Read More <img src="../img/arrow_ogn.png" /></a>
-            </div>
-            <div class="contribute blog">
-                <h3></h3>
-                <p></p>
-                <a href="#">Read More <img src="../img/arrow_ogn.png" /></a>
-            </div>
-            <div class="contribute blog">
-                <h3></h3>
-                <p></p>
-                <a href="#">Read More <img src="../img/arrow_ogn.png" /></a>
-            </div>
+        <div class="feature">
+            <img src="../img/product_design.svg" />
+            <h3>Product Design</h3>
+            <p>UX and UI are critical to product adoption. We rely on insights from extensive user testing and focus on making things useful and usable first.</p>
         </div>
     </div>
+    
 </div>
