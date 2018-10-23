@@ -3,10 +3,10 @@
     <div class="site-specific-menu">
         <p>
             <span class="site-name">incubate</span>
-            <a class="specific-nav-link" href=""><span>About</span></a>
-            <a class="specific-nav-link" href=""><span>Projects</span></a>
-            <a class="specific-nav-link" href=""><span>Submissions</span></a>
-            <a class="specific-nav-link" href=""><span>Community</span></a>
+            <a class="specific-nav-link" href="/about/"><span>About</span></a>
+            <a class="specific-nav-link" href="/projects/"><span>Projects</span></a>
+            <a class="specific-nav-link" href="/submissions/"><span>Submissions</span></a>
+            <a class="specific-nav-link" href="/community/"><span>Community</span></a>
         </p>
     </div>
     <div class="intro">
