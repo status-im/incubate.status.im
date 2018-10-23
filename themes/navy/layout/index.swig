@@ -13,7 +13,7 @@
         <h1>Incubating Projects that are Building Web3</h1>
         <p>We’re advancing the Ethereum ecosystem by contributing to the growth of early stage, open source blockchain projects that share our values. Our incubatees are some of the most ambitious projects in the web3 ecosystem, and we’re providing pre-seed funding, mentorship, and infrastructure to help them succeed.</p>
         <div class="intro-buttons">
-            <a class="button button--main" href="/submissions/">APPLY FOR STATUS</a>
+            <a class="button button--main" href="/apply/">APPLY FOR STATUS</a>
         </div>
     </div>
 </div>
