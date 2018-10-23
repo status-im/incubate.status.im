@@ -6,6 +6,15 @@ note-warn = hsl(0, 100%, 50%)
   clearfix()
   position: relative
 
+#content-apply
+  clearfix()
+  position: relative
+  background: #fff
+  border-radius: 10px
+  padding: 64px
+  margin-top: 40px
+  h1
+
 #content-inner
   display: flex;
 
@@ -126,6 +135,9 @@ note-warn = hsl(0, 100%, 50%)
   .article-heading:hover &
     display: inline-block
 
+.article-content-apply
+  max-width: 1200px !important
+
 .article-content
   line-height: line-height
   color: color-default
@@ -137,14 +149,14 @@ note-warn = hsl(0, 100%, 50%)
   p, ol, ul, dl, table, blockquote, iframe, .highlight
     margin: 12px 0
   h1
-    font-size: 20px
+    font-size: 26px
   h2
-    font-size: 18px
+    font-size: 20px
   h3
     font-size: 16px
   h1, h2, h3, h4, h5, h6
     font-weight: bold
-    margin: 1em 0
+    margin: 12px 0
     color: #000000
   a
     color: incubate;
@@ -286,4 +298,5 @@ $article-footer-link
   p
     color: #939BA1
     font-size: 16px
+
   

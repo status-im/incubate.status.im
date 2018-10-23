@@ -1,0 +1,64 @@
+.hs-form 
+    label 
+        margin: 12px 0
+    span
+      line-height: 25px
+      font-size: 16px
+      color: #000000
+    input 
+        border: 1px solid rgba(147, 155, 161, 0.4)
+        border-radius: 10px
+        height: 40px
+        width: 100%
+    textarea
+        border: 1px solid rgba(147, 155, 161, 0.4)
+        border-radius: 10px
+        height: 120px
+        width: 100%
+    ul
+        list-style: none
+        li
+            label 
+                span
+                    margin-left: 6px
+  
+
+.hs-form-required
+      color: red !important
+      margin-left: 4px
+
+.hs-firstname
+    float: left
+    width: calc(50% - 30px)
+    margin-right: 30px
+    @media mq-mobile
+        width: 100%
+
+.hs-lastname
+    width: 50%
+    float: left
+    margin-right: 0
+    @media mq-mobile
+        width: 100%
+
+.actions
+    input 
+        display: block
+        text-decoration: none
+        font-size: 14px
+        text-transform: uppercase
+        letter-spacing: 1px
+        padding: 10px 32px 9px
+        border-radius: 22px
+        font-weight: 500
+        line-height: normal
+        background-color: #fff
+        color: #000
+        text-align: center
+        white-space: nowrap
+        box-shadow: 0px 2px 4px rgba(43, 59, 71, 0.124)
+        transition: all 0.3s ease-in-out
+        &:hover
+            background-color: #008BAD
+            color: #fff
+            cursor: pointer
