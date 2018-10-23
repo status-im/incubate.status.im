@@ -75,10 +75,11 @@ note-warn = hsl(0, 100%, 50%)
 
 .article-header
   max-width: 1200px;
-  margin: 0 auto;
-  padding: 90px 0 20px;
+  margin: 150px auto 20px;
   display: flex;
   justify-content: space-between;
+  @media mq-mobile
+    padding: 0 20px
 
 .article-title
   font-family: font-title
@@ -88,10 +89,8 @@ note-warn = hsl(0, 100%, 50%)
   text-decoration: none
   font-weight: bold;
   font-size: 25px;
-  color: #ffffff;
+  color: #000;
   transition: 0.2s
-  a&:hover
-    color: color-link-hover
   .post &
     float: none
 
@@ -108,7 +107,7 @@ note-warn = hsl(0, 100%, 50%)
   font-weight: normal;
   line-height: normal;
   font-size: 15px;
-  color: #ffffff;
+  color: incubate;
   display: none;
   align-items: flex-end;
   text-decoration: none;
@@ -130,24 +129,26 @@ note-warn = hsl(0, 100%, 50%)
 .article-content
   line-height: line-height
   color: color-default
+  max-width: 800px
   @media print
     font-size: 12pt
+  @media mq-mobile
+    padding: 0 20px
   p, ol, ul, dl, table, blockquote, iframe, .highlight
-    margin: 1em 0
+    margin: 12px 0
   h1
-    font-size: 26px
-  h2
     font-size: 20px
-  h3
+  h2
     font-size: 18px
+  h3
+    font-size: 16px
   h1, h2, h3, h4, h5, h6
-    line-height: 1em
     font-weight: bold
     margin: 1em 0
-    color: color-title
+    color: #000000
   a
-    color: #000000;
-    text-decoration: underline;
+    color: incubate;
+    text-decoration: none;
     &:hover
       color: color-link-hover
       text-decoration: underline
@@ -257,3 +258,32 @@ $article-footer-link
 #comments
   @media print
     display: none
+
+
+#page-list-header
+  clearfix()
+  margin: 40px 0
+
+#page-list-title
+  font-family: font-title
+  font-size: 36px
+  font-weight: 300
+  line-height: 1
+  float: left
+
+.team-member
+  float: left
+  width: 33% 
+  text-align: center
+  padding: 20px 0
+  @media mq-mobile
+    width: 50%
+  @media (max-width: 491px)
+    width: 100%
+    padding: 0
+  h4
+    font-size: 16px
+  p
+    color: #939BA1
+    font-size: 16px
+  
