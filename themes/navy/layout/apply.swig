@@ -1,6 +1,6 @@
 <div class="site-specific-menu">
     <p>
-        <span class="site-name">incubate</span>
+        <a class="site-name" href="/">incubate</a>
         <a class="specific-nav-link" href="/about/"><span>About</span></a>
         <a class="specific-nav-link" href=""><span>Projects</span></a>
         <a class="specific-nav-link" href=""><span>Submissions</span></a>
