@@ -42,7 +42,7 @@
                   <p>CryptoStrikers is a crypto-collectibles platform that allows sports fans to buy and trade soccer cards. Each of these crypto cards is unique, with an ERC-721 token on the Ethereum blockchain. Since CryptoStrikers data is public, 
                   it’s easy to see how scarce each card is, and owners can display them and use them however they like.</p>
                 </div>
-                <div class="project2">
+                <div class="project2 project-apply">
                   <h3>Tell us about your project!</h3>
                   <a href="/apply/">Apply to Status Incubate</a>
                 </div>

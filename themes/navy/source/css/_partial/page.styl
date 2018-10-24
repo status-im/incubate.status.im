@@ -318,6 +318,9 @@ $article-footer-link
 .project2
   width: 50%
 
+.project-apply
+  text-align: center
+
 .project, .project2
   float: left
   padding: 32px
@@ -326,17 +329,39 @@ $article-footer-link
   border-radius: 10px
   margin-bottom: 30px
   margin-top: 30px
-  display: table-cell
+  height: 370px
   img
     margin: 3px 0px 15px
-  h4
+  h4, h3
     font-weight: bold
     font-size: 20px
     color: #000000
     margin: 12px 0
+  h3
+    margin: 100px 0 28px 0
   p
     line-height: 25px
     font-size: 16px
     color: #000000
+  a
+    background: rgba(0,139,173,0.1)
+    border-radius: 20px
+    color: rgb(0,139,173)
+    padding: 12px 24px
+    text-decoration: none
+    margin-top: 20px
+    &:hover
+      color: rgb(255,255,255)
+      background: rgb(0,139,173)
 
 
+@media (max-width: 491px)
+  .project, .project2
+    width: 95%
+    margin: 20px 10px
+    height: 450px
+    h3
+      margin: 140px 0 28px 0
+
+  .projects-intro
+    padding-left: 20px

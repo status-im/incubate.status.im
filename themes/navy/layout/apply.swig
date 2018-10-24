@@ -2,9 +2,9 @@
     <p>
         <a class="site-name" href="/">incubate</a>
         <a class="specific-nav-link" href="/about/"><span>About</span></a>
-        <a class="specific-nav-link" href=""><span>Projects</span></a>
-        <a class="specific-nav-link" href=""><span>Submissions</span></a>
-        <a class="specific-nav-link" href=""><span>Community</span></a>
+        <a class="specific-nav-link" href="/projects/"><span>Projects</span></a>
+        <a class="specific-nav-link" href="/submissions/"><span>Submissions</span></a>
+        <a class="specific-nav-link" href="/community/"><span>Community</span></a>
     </p>
 </div>
 <div id="content-wrap-apply">
