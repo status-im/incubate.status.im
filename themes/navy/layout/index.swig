@@ -36,9 +36,9 @@
             <p>We offer standard pre-seed funding in exchange for equity and tokens (where applicable). Funding for later-stage projects is also possible on a case-by-case basis.</p>
         </div>
         <div class="feature">
-            <img src="../img/mentorship.svg" />
-            <h3>Mentorship</h3>
-            <p>Projects will have access to our volunteer mentor network who can provide coaching on the various aspects of building a Web3 project.</p>
+            <img src="../img/technical_support.svg" />
+            <h3>Technical Support</h3>
+            <p>Our technical team has more than 80 members who share their deep expertise with all incubatees. Projects will have access to our 80+ technical team that have deep expertise across the full stack.</p>
         </div>
         <div class="feature">
             <img src="../img/legal_reg.svg" />
@@ -51,9 +51,9 @@
             <p>We have expertise in branding, product positioning, content planning, and community management.</p>
         </div>
         <div class="feature">
-            <img src="../img/technical_support.svg" />
-            <h3>Technical Support</h3>
-            <p>Our technical team has more than 80 members who share their deep expertise with all incubatees. Projects will have access to our 80+ technical team that have deep expertise across the full stack.</p>
+            <img src="../img/mentorship.svg" />
+            <h3>Mentorship</h3>
+            <p>Projects will have access to our volunteer mentor network who can provide coaching on the various aspects of building a Web3 project.</p>
         </div>
         <div class="feature">
             <img src="../img/product_design.svg" />
