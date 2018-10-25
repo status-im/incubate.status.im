@@ -30,24 +30,24 @@
                 <h2>Our Team</h2>
                 <p>Our team of Status Core Contributors embrace our culture of community and inclusion. Some team members work exclusively on Incubate, while others provide support as mentors. We’re just as passionate about empowering our own team as we are about making sure our projects receive the support that helps them scale.</p>
                 <div class="team-member">
-                  <img src="../img/ola.png" />
-                  <h4>Ola Kohut</h4>
-                  <p>Analyst</p>
+                  <img src="../img/ben.png" />
+                  <h4 class="team-name">Ben Morris</h4>
+                  <p class="team-position">Head of Status Incubate</p>
                 </div>
                 <div class="team-member">
-                  <img src="../img/ben.png" />
-                  <h4>Ben Morris</h4>
-                  <p>Head of Status Incubate</p>
+                  <img src="../img/ola.png" />
+                  <h4 class="team-name">Ola Kohut</h4>
+                  <p class="team-position">Analyst</p>
                 </div>
                 <div class="team-member">
                   <img src="../img/kim.png" />
-                  <h4>Kim Fournier</h4>
-                  <p>Marketing</p>
+                  <h4 class="team-name">Kim Fournier</h4>
+                  <p class="team-position">Marketing</p>
                 </div>
                 <div class="team-member">
                   <img src="../img/arseniy.png" />
-                  <h4>Arseniy Klempner</h4>
-                  <p>Smart Contract Engineer</p>
+                  <h4 class="team-name">Arseniy Klempner</h4>
+                  <p class="team-position">Smart Contract Engineer</p>
                 </div>
                 <div class="clear"></div>
               </div>
