@@ -782,18 +782,22 @@ body
   justify-content: flex-start
   text-align: left
 
-.intro {
-  -webkit-box-orient: vertical;
-  -moz-box-orient: vertical;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  padding: 120px 0 64px;
-  color: #000;
-  text-align: left;
-  max-width: 1200px;
-  width: 100%;
-}
+.intro
+  -webkit-box-orient: vertical
+  -moz-box-orient: vertical
+  -webkit-flex-direction: column
+  -ms-flex-direction: column
+  flex-direction: column
+  padding: 120px 0 64px
+  color: #000
+  text-align: left
+  max-width: 1200px
+  width: 100%
+  a
+    text-decoration: none
+    color: incubate
+    &:hover
+      opacity: 0.7
 
 .intro .button {
   width: 278px;
