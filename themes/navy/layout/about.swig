@@ -41,8 +41,8 @@
                 </div>
                 <div class="team-member">
                   <img src="../img/kim.png" />
-                  <h4>Kimberley Fournier</h4>
-                  <p>Global marketing Specialist</p>
+                  <h4>Kim Fournier</h4>
+                  <p>Marketing</p>
                 </div>
                 <div class="team-member">
                   <img src="../img/arseniy.png" />
