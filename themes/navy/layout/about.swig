@@ -23,7 +23,7 @@
               <div class="article-content" itemprop="articleBody">
                 <h2>Incubate Philosophy</h2>
                 <p>Our goal is to achieve widespread adoption of the decentralized web- while staying true to our core principles which include transparency, openness, decentralization, security, and privacy.</p>
-                <p>These principals act as tools for thinking, communication, and decision-making as we choose like-minded startups to support.</p>
+                <p>These principles act as tools for thinking, communication, and decision-making as we choose like-minded startups to support.</p>
                 <h2>Program Format</h2>
                 <p>Because great projects are submitted throughout the year, we incubate startups on a rolling basis, so we're ready to go when you are.</p>
                 <p>We review all applications and invite the most promising projects to interview. After the interview process, successful applicants enter our 12-week program. This program is tailored to the specific needs of each startup.</p>
