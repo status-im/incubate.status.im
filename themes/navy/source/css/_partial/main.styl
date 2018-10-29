@@ -500,7 +500,7 @@ body
       justify-content: center
       flex-wrap: wrap
       li
-        background: rgba(incubate, 0.1)
+        background: rgba(status, 0.1)
         margin-right: 20px
         flex: 1
         padding: 30px 30px 15px 30px
@@ -782,18 +782,22 @@ body
   justify-content: flex-start
   text-align: left
 
-.intro {
-  -webkit-box-orient: vertical;
-  -moz-box-orient: vertical;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  padding: 120px 0 64px;
-  color: #000;
-  text-align: left;
-  max-width: 1200px;
-  width: 100%;
-}
+.intro
+  -webkit-box-orient: vertical
+  -moz-box-orient: vertical
+  -webkit-flex-direction: column
+  -ms-flex-direction: column
+  flex-direction: column
+  padding: 120px 0 64px
+  color: #000
+  text-align: left
+  max-width: 1200px
+  width: 100%
+  a
+    text-decoration: none
+    color: incubate
+    &:hover
+      opacity: 0.7
 
 .intro .button {
   width: 278px;
@@ -923,7 +927,7 @@ pre {
 
 .forward-text
   width: 60%
-  padding: 100px 40px
+  padding: 100px 20px
   text-align: left
   float: left
   display: block
@@ -949,11 +953,12 @@ pre {
   width: 33%
   float: left
   display: block
-  padding: 100px 30px
+  padding: 100px 40px 100px 20px
   height: 400px
   flex-wrap: wrap
   img
     margin-bottom: 20px
+    height: 38px
   h3
     font-weight: bold
     line-height: 25px
@@ -968,7 +973,7 @@ pre {
 @media (max-width: 767px)
   .forward-text
     width: 100%
-    padding: 100px 40px 0px
+    padding: 100px 20px
   .forward-img
     text-align: center
     width: 100%
@@ -1100,4 +1105,8 @@ footer
       flex: 0 0 100%;
       max-width: 100%;
 
-    
+.team-name
+  margin: 12px 0 0 0 !important
+
+.team-position
+  margin: 0 0 12px 0 !important

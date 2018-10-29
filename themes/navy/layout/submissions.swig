@@ -22,16 +22,9 @@
             <div class="inner">
               <div class="article-content" itemprop="articleBody">
                 <h2>Submission Process</h2>
-                <p>Once you submit your project, it will go through an initial review. If selected, you’ll move on to the next phase - an interview with members of the Incubate team.</p> 
-                <p>You’ll then have multiple review stages with Status Core Team Members, ideally culminating in a final review and offer.</p>
-                <h2>Submission Criteria</h2>
-                <ul class="submission-list">
-                    <li>Is the project open source?</li>
-                    <li>Does the product or service fill a necessary gap in the ecosystem?</li>
-                    <li>What is the competitive landscape like?</li>
-                    <li>Is there existing community interest?</li>
-                    <li>Are there any associated legal risks?</li>
-                </ul>
+                <p>Once you submit your project, it will go through an initial review. If selected, you’ll move on to the next phase - an interview with members of the Incubate team. 
+                    You’ll then have multiple review stages with Status Core Team Members, ideally culminating in a final review and offer.</p> 
+                <p>While evaluating projects we pay attention to various aspects pertaining to their role in the Web 3.0 space, e.g. whether your project is open source, does it fill necessary gaps in the ecosystem and whether there’s an existing community interest.</p>
               </div>
             </div>
           </div>

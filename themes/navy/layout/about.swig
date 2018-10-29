@@ -22,32 +22,32 @@
             <div class="inner">
               <div class="article-content" itemprop="articleBody">
                 <h2>Incubate Philosophy</h2>
-                <p>Our goal is to achieve widespread adoption of the decentralized web- while staying true to our core principles which include transparency, openness, decentralization, security, and privacy.</p>
-                <p>These principals act as tools for thinking, communication, and decision-making as we choose like-minded startups to support.</p>
+                <p>Our goal is to achieve widespread adoption of the decentralized web - while staying true to our <a href="https://status.im/contribute/our_principles.html">core principles</a> which include transparency, openness, decentralization, security, and privacy.</p>
+                <p>These principles act as tools for thinking, communication, and decision-making as we choose like-minded startups to support.</p>
                 <h2>Program Format</h2>
                 <p>Because great projects are submitted throughout the year, we incubate startups on a rolling basis, so we're ready to go when you are.</p>
                 <p>We review all applications and invite the most promising projects to interview. After the interview process, successful applicants enter our 12-week program. This program is tailored to the specific needs of each startup.</p>
                 <h2>Our Team</h2>
                 <p>Our team of Status Core Contributors embrace our culture of community and inclusion. Some team members work exclusively on Incubate, while others provide support as mentors. We’re just as passionate about empowering our own team as we are about making sure our projects receive the support that helps them scale.</p>
                 <div class="team-member">
-                  <img src="../img/ola.png" />
-                  <h4>Ola Kohut</h4>
-                  <p>Analyst</p>
+                  <img src="../img/ben.png" />
+                  <h4 class="team-name">Ben Morris</h4>
+                  <p class="team-position">Head of Status Incubate</p>
                 </div>
                 <div class="team-member">
-                  <img src="../img/ben.png" />
-                  <h4>Ben Morris</h4>
-                  <p>Head of Status Incubate</p>
+                  <img src="../img/ola.png" />
+                  <h4 class="team-name">Ola Kohut</h4>
+                  <p class="team-position">Analyst</p>
                 </div>
                 <div class="team-member">
                   <img src="../img/kim.png" />
-                  <h4>Kimberley Fournier</h4>
-                  <p>Global marketing Specialist</p>
+                  <h4 class="team-name">Kim Fournier</h4>
+                  <p class="team-position">Marketing</p>
                 </div>
                 <div class="team-member">
                   <img src="../img/arseniy.png" />
-                  <h4>Arseniy Klempner</h4>
-                  <p>Smart Contract Engineer</p>
+                  <h4 class="team-name">Arseniy Klempner</h4>
+                  <p class="team-position">Smart Contract Engineer</p>
                 </div>
                 <div class="clear"></div>
               </div>
