@@ -24,23 +24,29 @@
                 <p class="projects-intro">Interested in learning more about our projects? Meet our community of entrepreneurs:</p>
                 <div class="project-wrap">
                 <div class="project">
+                  <a href="https://kickback.events/" class="project-cover-link">
                   <img src="../img/logo-kickback.svg" />
                   <h4>Kickback</h4>
                   <p>Kickback is an Ethereum-powered, open-source event management DApp and an incredibly smart solution to minimize event no-shows. People who register to attend an event commit a small amount of ETH when they RSVP. Those who attend can withdraw their ETH after the event. 
                   The collective ETH from any no-shows is distributed to the event attendees, or can be applied to charity or a future event.</p>
+                  </a>
                 </div>
                 <div class="project2">
+                  <a href="https://pixura.io/" class="project-cover-link">
                   <img src="../img/logo-pixura.svg" />
                   <h4>Pixura</h4>
                   <p>Pixura is a protocol for digital content ownership on Ethereum. WIth Pixura you can create a digital marketplace in minutes, deploy smart contracts, create tokens, search, and use analytics. Pixura is the team behind SuperRare, 
                   which helps users collect digital art and ensures artists receive a portion of sales each time their work changes hands.</p>
+                  </a>
                 </div>
                 <div class="clear"></div>
                 <div class="project">
+                  <a href="https://www.cryptostrikers.com/" class="project-cover-link">
                   <img src="../img/logo-cryptostrikers.svg" />
                   <h4>CryptoStrikers</h4>
                   <p>CryptoStrikers is a crypto-collectibles platform that allows sports fans to buy and trade soccer cards. Each of these crypto cards is unique, with an ERC-721 token on the Ethereum blockchain. Since CryptoStrikers data is public, 
                   it’s easy to see how scarce each card is, and owners can display them and use them however they like.</p>
+                  </a>
                 </div>
                 <div class="project2 project-apply">
                   <h3>Tell us about your project!</h3>
