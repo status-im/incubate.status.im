@@ -18,7 +18,6 @@ Make sure you have node.js installed first.
 
 1. Open Terminal and navigate to the project root directory,
 2. Run `npm install`,
-3. Run `npm run build`,
-4. Go to `public/` directory,
-5. Start a simple HTTP server serving files, for example: `python -m SimpleHTTPServer 8000`,
-6. Open http://localhost:8000 in a browser.
+3. Run `./node_modules/.bin/gulp build`,
+4. In another terminal, run `./node_modules/.bin/hexo serve`,
+5. This prevents the need for any global installs, and will allow you to have live reloading for any changes you are making.
