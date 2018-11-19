@@ -23,14 +23,7 @@
   <link rel="apple-touch-icon" sizes="152x152" href="/img/apple-touch-icon-152.png?v=0.0.5">
   <link rel="apple-touch-icon" sizes="180x180" href="/img/apple-touch-icon-180.png?v=0.0.5">
   <link rel="apple-touch-icon" href="/img/apple-touch-icon-1024.png?v=0.0.5">
-  <!-- CSS -->
-  <!-- build:css build/css/navy.css -->
-  {{ css('css/navy') }}
-  <!-- endbuild -->
-  <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet" type="text/css">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.css" />
-  <!-- RSS -->
+  {{ css('css/main.min')  }}
   {{ feed_tag('atom.xml') }}
   <meta property="og:title" content="Status Incubate: helping #buidl web3" />
 </head>
