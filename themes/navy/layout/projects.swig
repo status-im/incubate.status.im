@@ -24,6 +24,13 @@
                 <p class="projects-intro">Interested in learning more about our projects? Meet our community of entrepreneurs:</p>
                 <div class="project-wrap">
                 <div class="project">
+                  <a href="https://leapdao.org/" class="project-cover-link">
+                  <img id="leapdao-logo" src="../img/logo-leapdao.svg" />
+                  <h4>LeapDAO</h4>
+                  <p>LeapDAO is increasing the capacity of Ethereum and the scope of possible Dapps in the ecosystem through the development of Plasma Leap. Plasma Leap extends Plasma, a technique for off-chain transactions, enabling decentralized applications with thousands of users at the same time. LeapDAO combines Holacracy and Decentralized Organizations to build a global, self-managing and purpose-driven community.</p>
+                  </a>
+                </div>
+                <div class="project2">
                   <a href="https://kickback.events/" class="project-cover-link">
                   <img src="../img/logo-kickback.svg" />
                   <h4>Kickback</h4>
@@ -31,7 +38,8 @@
                   The collective ETH from any no-shows is distributed to the event attendees, or can be applied to charity or a future event.</p>
                   </a>
                 </div>
-                <div class="project2">
+                <div class="clear"></div>
+                <div class="project">
                   <a href="https://pixura.io/" class="project-cover-link">
                   <img src="../img/logo-pixura.svg" />
                   <h4>Pixura</h4>
@@ -39,8 +47,7 @@
                   which helps users collect digital art and ensures artists receive a portion of sales each time their work changes hands.</p>
                   </a>
                 </div>
-                <div class="clear"></div>
-                <div class="project">
+                <div class="project2">
                   <a href="https://www.cryptostrikers.com/" class="project-cover-link">
                   <img src="../img/logo-cryptostrikers.svg" />
                   <h4>CryptoStrikers</h4>
@@ -48,9 +55,10 @@
                   it’s easy to see how scarce each card is, and owners can display them and use them however they like.</p>
                   </a>
                 </div>
-                <div class="project2 project-apply">
+                <div class="clear"></div>
+                <div class="project project-apply">
                   <h3>Tell us about your project!</h3>
-                  <a href="/apply/">Apply to Status Incubate</a>
+                  <a href="/apply/?gh_jid=1310069">Apply to Status Incubate</a>
                 </div>
                 <div class="clear"></div>
                 </div>
