@@ -43,7 +43,7 @@
                   <a href="https://pixura.io/" class="project-cover-link">
                   <img src="../img/logo-pixura.svg" />
                   <h4>Pixura</h4>
-                  <p>Pixura is a protocol for digital content ownership on Ethereum. WIth Pixura you can create a digital marketplace in minutes, deploy smart contracts, create tokens, search, and use analytics. Pixura is the team behind SuperRare, 
+                  <p>Pixura is a protocol for digital content ownership on Ethereum. With Pixura you can create a digital marketplace in minutes, deploy smart contracts, create tokens, search, and use analytics. Pixura is the team behind SuperRare, 
                   which helps users collect digital art and ensures artists receive a portion of sales each time their work changes hands.</p>
                   </a>
                 </div>
