@@ -30,6 +30,7 @@
     </div>
 </div>
 <div id="general-menu-backdrop"></div>
+
 <div class="popup-wrap popup-wrap--community">
     <div class="popup popup--community">
         <a class="popup__button popup__button--close"></a>
@@ -152,3 +153,4 @@
         </div>
     </div>
     <div class="popup-overlay"></div>
+</div>
