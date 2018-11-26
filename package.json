@@ -10,7 +10,7 @@
     "build": "gulp run && hexo generate",
     "eslint": "eslint .",
     "deploy": "hexo deploy",
-    "serve":"gulp run && hexo server"
+    "serve": "gulp run && hexo server"
   },
   "dependencies": {
     "cheerio": "^0.20.0",
