@@ -58,7 +58,7 @@
                 <div class="clear"></div>
                 <div class="project project-apply">
                   <h3>Tell us about your project!</h3>
-                  <a href="/apply/?gh_jid=1310069">Apply to Status Incubate</a>
+                  <a href="mailto:incubate@status.im">CONTACT US</a>
                 </div>
                 <div class="clear"></div>
                 </div>
