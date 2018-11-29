@@ -1,29 +1,15 @@
-  // let ScrollOver = require("./lib/ScrollOver.js")
-// let animateScroll = require("./lib/animatescroll.js")
-// let d3 = require("d3")
-
 $(document).ready(function () {
-  var months = {'01':'Jan', '02':'Feb', '03':'Mar', '04':'Apr', '05':'May', '06':'Jun', '07':'Jul', '08':'Aug', '09':'Sep', '10':'Oct', '11':'Nov', '12':'Dec'};
-  let url = 'https://our.status.im/ghost/api/v0.1/posts/?order=published_at%20desc&limit=2&formats=plaintext&client_id=ghost-frontend&client_secret=2b055fcd57ba';
-  var urlBase = [location.protocol, '//', location.host, location.pathname].join('');
 
-  var w = Math.max(document.documentElement.clientWidth, window.innerWidth || 0);
+  // Fixes Parallax effect and div to popup overlapping with the main menu options
+  $('div#container').append($('.popup-wrap.popup-wrap--community')[0])
+  $('div#container').append($('.popup-wrap.popup-wrap--projects')[0])
 
-  $(window).on('resize', function(event) {
-      w = Math.max(document.documentElement.clientWidth, window.innerWidth || 0);
-      setMenu(w);
-  });
-
-  function setMenu(w) {
-      if (w < 1199) {
-        console.log("mobile")
-          $('#general-menu nav ul').appendTo('#general-menu-mobile nav');
-      } else {
-          $('#general-menu-mobile nav ul').appendTo('#general-menu nav');
-      };
+  function getWords(str) {
+    return str.split(/\s+/).slice(0,25).join(" ");
   }
 
-  setMenu(w);
+  var months = {'01':'Jan', '02':'Feb', '03':'Mar', '04':'Apr', '05':'May', '06':'Jun', '07':'Jul', '08':'Aug', '09':'Sep', '10':'Oct', '11':'Nov', '12':'Dec'};
+  url = 'https://our.status.im/ghost/api/v0.1/posts/?order=published_at%20desc&limit=2&formats=plaintext&client_id=ghost-frontend&client_secret=2b055fcd57ba';
 
   $.ajax({
     type: "get",
@@ -53,49 +39,28 @@ $(document).ready(function () {
     }
   });
 
-  function getWords(str) {
-    return str.split(/\s+/).slice(0,25).join(" ");
-  }
-
 });
-
-let heroImage = document.querySelectorAll(".hero-image")[0]
-
-if(heroImage) {
-  setTimeout(function(){
-    addClassToElement(heroImage, "active")
-  }, 200)
-}
 
 /* Popups */
 
 let community = document.querySelectorAll(".item--dropdown-community")[0]
 let projects = document.querySelectorAll(".item--dropdown-projects")[0]
-let mobileMenu = document.querySelectorAll(".mobile-menu-trigger")[0]
 
-let popups = document.querySelectorAll('.popup-wrap')
+let popups = document.querySelectorAll(".popup-wrap")
 let overlays = document.querySelectorAll(".popup-overlay")
-let popupMenu = document.querySelectorAll("#general-menu-mobile")[0]
-
-let closeButtons = document.querySelectorAll(".popup__button--close,#general-menu-mobile .close")
+let closeButtons = document.querySelectorAll(".popup__button--close")
 
 let activePopup = null;
 let activeOverlay = null;
 
 community.addEventListener('click', function(event){
-  showPopup(popups[0])
-  event.preventDefault()
-
+    showPopup(popups[0])
+    event.preventDefault()
 })
 
 projects.addEventListener('click', function(event){
     showPopup(popups[1])
     event.preventDefault()
-})
-
-mobileMenu.addEventListener('click', function(event) {
-  showPopup(popupMenu)
-  event.preventDefault()
 })
 
 closeButtons.forEach((button) => {
@@ -112,13 +77,8 @@ function showPopup(whichPopup) {
 }
 
 function closeActivePopup() {
-  console.log("test")
   removeClassFromElement(activePopup, "popup--shown");
   activePopup = null;
-}
-
-function closeMenu() {
-  removeClassFromElement(activePopup, "")
 }
 
 /* Code highlighting */
@@ -150,7 +110,7 @@ function highlight() {
 })
 
 /* Mobile Nav */
-/*
+
 let moreLink = document.querySelectorAll(".item--more")[0]
 
 let nav = document.querySelectorAll(".mobile-nav-wrap")[0]
@@ -174,7 +134,6 @@ function showNav() {
 function closeNav() {
   removeClassFromElement(nav, "mobile-nav--shown");
 }
-*/
 
 /*--- Utils ---*/
 function addClassToElement(element, className) {
