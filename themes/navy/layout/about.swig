@@ -26,7 +26,7 @@
                 <p>These principles act as tools for thinking, communication, and decision-making as we choose like-minded startups to support.</p>
                 <h2>Program Format</h2>
                 <p>Because great projects are submitted throughout the year, we incubate startups on a rolling basis, so we're ready to go when you are.</p>
-                <p>We review all applications and invite the most promising projects to interview. After the interview process, successful applicants enter our 12-week program. This program is tailored to the specific needs of each startup.</p>
+                <p>We review all applications and invite the most promising projects to interview. After the interview process, successful applicants will enter the program, which is tailored to the specific needs of each project.</p>
                 <h2>Our Team</h2>
                 <p>Our team of Status Core Contributors embrace our culture of community and inclusion. Some team members work exclusively on Incubate, while others provide support as mentors. We’re just as passionate about empowering our own team as we are about making sure our projects receive the support that helps them scale.</p>
                 <div class="team-member">

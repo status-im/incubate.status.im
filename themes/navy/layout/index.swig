@@ -13,7 +13,7 @@
         <h1>Incubating Projects that are Building Web3</h1>
         <p>We’re advancing the Ethereum ecosystem by contributing to the growth of early stage, open source blockchain projects that share <a href="https://status.im/contribute/our_principles.html">our values</a>. Our incubatees are some of the most ambitious projects in the web3 ecosystem, and we’re providing pre-seed funding, mentorship, and infrastructure to help them succeed.</p>
         <div class="intro-buttons">
-            <a class="button button--main" href="/apply/?gh_jid=1310069">APPLY FOR INCUBATE</a>
+            <a class="button button--main" href="mailto:incubate@status.im">CONTACT US</a>
         </div>
     </div>
 </div>
