@@ -1395,3 +1395,28 @@ code.hljs {
 .hljs-strong {
   font-weight:bold;
 }
+
+.latest-posts{
+  .post{
+    margin-bottom: 24px;
+    h4{
+      a{
+        color: #000;
+        transition: color .1s ease;
+        &:hover{
+          color: #4360df;
+        }
+      }
+    }
+    time{
+      font-weight: normal;
+      line-height: normal;
+      font-size: 12px;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      color: #939BA1;
+      margin-bottom: 5px;
+      display: block;
+    }
+  }
+}
