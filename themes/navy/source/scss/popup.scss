@@ -6,7 +6,7 @@
   height: 100%;
   overflow: auto;
   box-sizing: border-box;
-  z-index: 700;
+  z-index: 9000;
 
   visibility: hidden;
   pointer-events: none;
@@ -48,7 +48,7 @@
   padding: 0px;
   position: relative;
   box-shadow: 0 3px 7px 0 rgba(175,192,202,0.41);
-  z-index: 900;
+  z-index: 9000;
 
   opacity: 0;
   transform: translate3d(0, 15px ,0) scale(.96);
